@@ -1,6 +1,6 @@
 {
   "name": "ruslanham-brain-games",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "hexlet - Brain Games",
   "main": "index.js",
   "bin": {
@@ -22,5 +22,8 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "readline-sync": "^1.4.8"
+  }
 }

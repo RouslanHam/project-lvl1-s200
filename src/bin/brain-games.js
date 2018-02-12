@@ -1,3 +1,7 @@
 #! /usr/bin/env node
 
-console.log("Welcome to the Brain Games!");
+import hello from '../index.js';
+
+console.log("Welcome to the Brain Games!\n");
+hello();
+//require('src/index.js');
