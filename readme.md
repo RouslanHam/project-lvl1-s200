@@ -4,4 +4,4 @@ Hexlet practic "Brain Games"
 
 <a href="https://codeclimate.com/github/RouslanHam/project-lvl1-s200/test_coverage"><img src="https://api.codeclimate.com/v1/badges/4f53c6960df8898c29ed/test_coverage" /></a>
 
-https://travis-ci.org/RouslanHam/project-lvl1-s200.svg?branch=master
+<img src="https://travis-ci.org/RouslanHam/project-lvl1-s200.svg?branch=master" />
