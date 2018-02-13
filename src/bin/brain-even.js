@@ -1,3 +1,5 @@
 #! /usr/bin/env node
 
-require('../brain-even');
+import even from '../games/brain-even';
+
+console.log(even);

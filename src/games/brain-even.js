@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import user from './index';
+import user from '../index';
 
 function isEven(num) {
   let result = 'no';

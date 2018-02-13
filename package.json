@@ -1,11 +1,12 @@
 {
   "name": "ruslanham-brain-games",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "hexlet - Brain Games",
   "main": "index.js",
   "bin": {
     "brain-games1": "dist/bin/brain-games.js",
-    "brain-even": "dist/bin/brain-even.js"
+    "brain-even": "dist/bin/brain-even.js",
+    "brain-calc": "dist/bin/brain-calc.js"
   },
   "author": "Ruslan Khamidullin",
   "license": "ISC",
@@ -30,6 +31,7 @@
   "dependencies": {
     "babel-eslint": "^8.2.1",
     "eslint": "^4.17.0",
+    "hexlet-pairs": "^1.0.5",
     "readline-sync": "^1.4.8"
   }
 }
