@@ -2,4 +2,4 @@
 
 import calc from '../games/brain-calc';
 
-console.log(calc);
+calc();

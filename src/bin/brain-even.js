@@ -2,4 +2,4 @@
 
 import even from '../games/brain-even';
 
-console.log(even);
+even();
