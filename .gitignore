@@ -1,3 +1,5 @@
 /node_modules
 /dist
 task.md
+src/games/brain-calc0.js
+src/logic-calc0.js
