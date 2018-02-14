@@ -8,7 +8,7 @@
 
 ## Install
 ```sh
-npm install -glibal ruslanham-brain-games
+npm install -global ruslanham-brain-games
 ```
 ## Using
 ```sh
