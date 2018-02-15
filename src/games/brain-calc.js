@@ -1,4 +1,4 @@
-import gameLogic from '../logic-calc';
+import gameLogic from '../index';
 
 const gameIntro = 'What is the result of the expression?';
 const diapasonRand = 20;

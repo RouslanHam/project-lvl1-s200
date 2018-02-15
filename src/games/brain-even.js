@@ -1,36 +1,25 @@
-import readlineSync from 'readline-sync';
-import user from '../index';
+import gameLogic from '../index';
 
-function isEven(num) {
-  let result = 'no';
-  if (num % 2 === 0) {
-    result = 'yes';
-  }
-  return result;
-}
+const gameIntro = 'Answer "yes" if number even otherwise answer "no".';
+const diapasonRand = 20;
 
-console.log('Welcome to the Brain Games!');
-console.log('Answer "yes" if number even otherwise answer "no".\n');
-const nameUser = user();
-let answer = true;
-let answerUser = '';
-let answerCorrect = '';
-const diapasonRand = 100;
-for (let i = 1; i < 4; i += 1) {
+const tasks = () => {
+  const isEven = (num) => {
+    let result = 'no';
+    if (num % 2 === 0) {
+      result = 'yes';
+    }
+    return result;
+  };
   const num = Math.floor(Math.random() * diapasonRand);
-  answerCorrect = isEven(num);
-  console.log(`Question: ${num}`);
-  answerUser = readlineSync.question('Your answer: ');
-  if (answerUser !== answerCorrect) {
-    answer = false;
-    break;
-  }
-  console.log('Correct!');
-}
+  const quiz = `${num}`;
+  const answerCorrect = isEven(num);
+  const result = [quiz, answerCorrect];
+  return result;
+};
 
-if (answer === true) {
-  console.log(`Congratulations, ${nameUser}`);
-} else {
-  console.log(`'${answerUser}' is wrong answer ;(. Correct answer was '${answerCorrect}'.\n)`);
-  console.log(`Let's try again, ${nameUser}!`);
-}
+
+export default () => {
+  const result = gameLogic(gameIntro, tasks);
+  return result;
+};
