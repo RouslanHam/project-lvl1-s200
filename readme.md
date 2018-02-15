@@ -13,4 +13,5 @@ npm install -global ruslanham-brain-games
 brain-even
 brain-calc
 brain-gcd
+brain-balance
 ```

@@ -1,4 +1,5 @@
 import gameLogic from '../index';
+import random from '../get-random';
 
 const gameIntro = 'Answer "yes" if number even otherwise answer "no".';
 const diapasonRand = 20;
@@ -11,7 +12,7 @@ const tasks = () => {
     }
     return result;
   };
-  const num = Math.floor(Math.random() * diapasonRand);
+  const num = random(diapasonRand);
   const quiz = `${num}`;
   const answerCorrect = isEven(num);
   const result = [quiz, answerCorrect];
