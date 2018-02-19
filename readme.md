@@ -15,4 +15,5 @@ brain-calc
 brain-gcd
 brain-balance
 brain-progression
+brain-prime
 ```
